@@ -8,17 +8,17 @@ int main()
 		printf("%d\n",i);
 		if(i%3==0 && i%5==0)
 		{
-			printf("FizzBuzz\n");
+			printf("FizzBuzz\n", i);
 		}
 		else{
 			if(i%5==0)
 			{
-				printf("Buzz\n");
+				printf("Buzz\n", i);
 			}
 			else{
 				if(i%3==0)
 				{
-					printf("Fizz\n");
+					printf("Fizz\n", i);
 				}
 				else{
 					printf("%d\n",i);
